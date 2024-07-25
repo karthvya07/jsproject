@@ -172,4 +172,14 @@ body {
     .offer-section {
         width: 100%;
     }
+
+    .offer-content {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
