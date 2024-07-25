@@ -164,3 +164,12 @@ body {
     color: green;
 
 }
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .offer-section {
+        width: 100%;
+    }
+}
